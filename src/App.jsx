@@ -9,6 +9,8 @@ import { useState } from "react";
 function App() {
   const [selectedTopic, setSelectedTopic] = useState();
 
+  // console.log()
+
   const handleClick = (selectedButton) => {
     setSelectedTopic(selectedButton);
   };
